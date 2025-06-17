@@ -785,6 +785,7 @@
         line-height: 24px;
         text-align: left;
         margin-top: 0px;
+	text-decoration: none;
       }
       .mail-text.active {
         animation-name: text-fade-in;
