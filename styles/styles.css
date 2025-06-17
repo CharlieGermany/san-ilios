@@ -741,7 +741,7 @@
         justify-content: flex-start;
         align-items: center;
         @media screen and (max-width:600px) {
-          width:300px;
+          width:260px;
         }
       }
       .mail.active {
