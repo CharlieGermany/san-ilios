@@ -457,7 +457,7 @@
       .mb-close-button.active {
         opacity: 0;
         animation-name: text-fade-in;
-        animation-duration: 200ms;
+        animation-duration: 400ms;
         animation-fill-mode: forwards;
         animation-delay: 800ms;
       }
