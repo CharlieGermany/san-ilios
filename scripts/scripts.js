@@ -6,16 +6,14 @@
         const listAnim02 = document.querySelector(".list-anim_02")
         const listAnim03 = document.querySelector(".list-anim_03")
         const listHeader = document.querySelector(".list-header")
-        if (list.classList == `active`) {
-          list.classList.remove(`active`);
-          backdropFilter.classList.remove(`active`);
-        } else
+        const closeButton = document.querySelector(".list-close-button")
         list.classList.add(`active`);
         backdropFilter.classList.add(`active`);
         listAnim01.classList.add(`active`);
         listAnim02.classList.add(`active`);
         listAnim03.classList.add(`active`);
         listHeader.classList.add(`active`);
+        closeButton.classList.add(`active`);
       }
       function closeList() {
         const list = document.getElementById("list")
@@ -24,12 +22,14 @@
         const listAnim02 = document.querySelector(".list-anim_02")
         const listAnim03 = document.querySelector(".list-anim_03")
         const listHeader = document.querySelector(".list-header")
+        const closeButton = document.querySelector(".list-close-button")
         list.classList.remove(`active`);
         backdropFilter.classList.remove(`active`);
         listAnim01.classList.remove(`active`);
         listAnim02.classList.remove(`active`);
         listAnim03.classList.remove(`active`);
         listHeader.classList.remove(`active`);
+        closeButton.classList.remove(`active`);
       }
       //PHOTO ALBUM
       function togglePA() {
@@ -105,24 +105,24 @@
         const backdropFilter = document.getElementById("backdrop-filter")
         const mBody = document.querySelector(".m-body")
         const mTitle = document.querySelector(".m-title")
-        if (mB.classList == `active`) {
-          mB.classList.remove(`active`);
-          backdropFilter.classList.remove(`active`);
-        } else
+        const closeButton = document.querySelector(".mb-close-button")
         mB.classList.add(`active`);
         backdropFilter.classList.add(`active`);
         mBody.classList.add(`active`);
         mTitle.classList.add(`active`);
+        closeButton.classList.add(`active`);
       }
       function closeMB() {
         const mB = document.querySelector(".mb")
         const backdropFilter = document.getElementById("backdrop-filter")
         const mBody = document.querySelector(".m-body")
         const mTitle = document.querySelector(".m-title")
+        const closeButton = document.querySelector(".mb-close-button")
         mB.classList.remove(`active`);
         backdropFilter.classList.remove(`active`);
         mBody.classList.remove(`active`);
         mTitle.classList.remove(`active`);
+        closeButton.classList.remove(`active`);
       }
 
       //POEMS
