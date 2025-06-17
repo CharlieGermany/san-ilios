@@ -526,6 +526,10 @@
         top: 10;
         opacity: 0;
         transition: 500ms;
+        @media screen and (max-width:600px) {
+          height:auto;
+          padding:2px;
+        }
       }
       .poem-row_01.active {
         animation-name: poem-up;
@@ -549,6 +553,10 @@
         top: 10;
         opacity: 0;
         transition: 500ms;
+        @media screen and (max-width:600px) {
+          height:auto;
+          padding:2px;
+        }
       }
       .poem-row_02.active {
         animation-name: poem-up;
@@ -572,6 +580,10 @@
         top: 10;
         opacity: 0;
         transition: 500ms;
+        @media screen and (max-width:600px) {
+          height:auto;
+          padding:2px;
+        }
       }
       .poem-row_03.active {
         animation-name: poem-up;
@@ -596,6 +608,10 @@
         top: 10;
         opacity: 0;
         transition: 500ms;
+        @media screen and (max-width:600px) {
+          height:auto;
+          padding:2px;
+        }
       }
       .poem-row_04.active {
         animation-name: poem-up;
@@ -632,6 +648,11 @@
         font-size: 14px;
         line-height: 24px;
         color: #404040;
+        @media screen and (max-width:600px) {
+          line-height: 20px;
+          margin:0px;
+          padding:0px;
+        }
       }
       .poem-size-cont {
         width: 20%;
