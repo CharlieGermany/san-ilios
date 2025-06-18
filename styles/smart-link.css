@@ -15,6 +15,9 @@
 
       a {
         text-decoration: none !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
       ::-webkit-scrollbar {
